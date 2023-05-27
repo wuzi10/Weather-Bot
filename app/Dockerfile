@@ -1,6 +1,6 @@
 FROM python:latest
 
-COPY ./app /app
+COPY . /app
 
 WORKDIR /app
 
